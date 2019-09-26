@@ -1,5 +1,5 @@
 TeeterBot base simulation has been taken from github: robustify/teeterbot.
-Various controllers and path follwing codes will be developed in this package
+Various controllers and path planning codes will be developed in this package
 # TeeterBot
 TeeterBot is a self-balancing robot simulation model for ROS / Gazebo. The dimensions and mass of each component are easily configured using launch file arguments, so it is easy to adjust physical parameters to test robustness of control algorithms.
 
@@ -18,7 +18,7 @@ Accelerate the bot using 'rostopic pub /set_angle std_msgs/Float64 -1 -- 0.2' wh
 There are three launch files in the `teeterbot_gazebo` package.
 
 ### `teeterbot_empty_world_pid.launch`
-his launch file spawns TeeterBot in Gazebo, starts aquiring angle and PID controller
+This launch file spawns TeeterBot in Gazebo, publish pitch angle and starts PID controller.
 
 ### `teeterbot_robot.launch`
 This launch file spawns TeeterBot in Gazebo. The arguments of this launch file control the dimensions, mass, and behavior of the simulation:

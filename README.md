@@ -1,4 +1,4 @@
-TeeterBot base simulation has been taken from github: robustify/teeterbot
+TeeterBot base simulation has been taken from github: robustify/teeterbot.
 Various controllers and path follwing codes will be developed in this package
 # TeeterBot
 TeeterBot is a self-balancing robot simulation model for ROS / Gazebo. The dimensions and mass of each component are easily configured using launch file arguments, so it is easy to adjust physical parameters to test robustness of control algorithms.

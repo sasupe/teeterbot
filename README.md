@@ -17,7 +17,7 @@ Accelerate the bot using 'rostopic pub /set_angle std_msgs/Float64 -1 -- 0.2' wh
 ## Launch Files
 There are three launch files in the `teeterbot_gazebo` package.
 
-### `teeterbot_empty_word_pid.launch`
+### `teeterbot_empty_world_pid.launch`
 his launch file spawns TeeterBot in Gazebo, starts aquiring angle and PID controller
 
 ### `teeterbot_robot.launch`

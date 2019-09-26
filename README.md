@@ -4,7 +4,7 @@ Various controllers and path planning codes will be developed in this package
 TeeterBot is a self-balancing robot simulation model for ROS / Gazebo. The dimensions and mass of each component are easily configured using launch file arguments, so it is easy to adjust physical parameters to test robustness of control algorithms.
 
 ## Controllers
-- **PID**: pid_controller.py teeterbot_empty_word_pid.launch has a pid controller implemented with command as velocity for both the wheels.
+- **PID**: pid_controller.py has a pid controller implemented with command as velocity for both the wheels.
 Accelerate the bot using 'rostopic pub /set_angle std_msgs/Float64 -1 -- 0.2' where angle is in degrees
 
 ### Helper functions
